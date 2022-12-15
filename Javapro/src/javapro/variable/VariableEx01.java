@@ -10,7 +10,7 @@ public class VariableEx01 {
 		
 		int hour1 = 3;
 		int minute1=hour1*60;
-		System.out.println((hour + "시간은 총 " + minute + "분입니다."));
+		System.out.println((hour + "시간은 총 " + minute + "분입니다.")); 
 	}
 
 }
