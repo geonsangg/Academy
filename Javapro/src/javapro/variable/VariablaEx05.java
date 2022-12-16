@@ -24,6 +24,8 @@ public class VariablaEx05 {
 		int share1 = minute / 60;
 		int remain1 = minute % 60;
 		System.out.println(share1 + "시간" + remain1 + "분");
+		
+		
 	}
 
 }
