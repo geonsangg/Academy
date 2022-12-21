@@ -13,9 +13,9 @@ public class IFEx02 {
 		int score = sc.nextInt();
 		if(score >= 90) {
 			System.out.println("A등급");
-		}
-		else if(score >=80 && score <=89) { // (score >=80) 으로 해도 가능 
-			System.out.println("B등급");     // 이유 : score하나의 값만 구하기 때문에 if와 else if,else 사이에 구간이 생겨서 위에 조건이 false라서 내려온거로 이해하면됌.
+		}                                 
+		else if(score >=80 && score <=89) { // (score >=80) 으로 해도 가능 단, 구하는 값이 한개일 때.
+			System.out.println("B등급");     // 이유 : score하나의 값만 구하기 때문에 socre >= 90 은 아니라는 전에가 깔림.
 		}
 		else if(score >=70 && score <=79) {
 			System.out.println("C등급");
