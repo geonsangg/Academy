@@ -16,7 +16,7 @@ public class StringEx02 {
 			System.out.println("여성");
 		}
 		else {
-			System.out.println("잘못된 주민번호 입니다."); 
+			System.out.println("잘못된 주민번호 입니다.");  
 		}
 		
 	}
