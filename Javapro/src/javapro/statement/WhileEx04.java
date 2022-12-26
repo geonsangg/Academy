@@ -1,6 +1,6 @@
 package javapro.statement;
 
-public class While04 {
+public class WhileEx04 {
 
 	public static void main(String[] args) {
 		while (true) {
