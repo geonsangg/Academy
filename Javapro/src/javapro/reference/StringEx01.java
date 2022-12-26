@@ -8,7 +8,7 @@ public class StringEx01 {
 		   null = 번지가 지워짐. heap에는 참조타입이 저장되있긴함. */
 		//↓예시) str1이 heap에 이건상을 저장하고 stack에 번지수를 저장함.
 		//      str2에 또 이건상을 저장하면 heap에 이건상이 있는걸 알고 같은 번지수를 저장하는것.
-		String str1 = "이건상";
+		String str1 = "이건상"; 
 		String str2 = "이건상";
 		if(str1 == str2) {
 			System.out.println("str1과 str2는 참조(메모리번지)가 같음.");
