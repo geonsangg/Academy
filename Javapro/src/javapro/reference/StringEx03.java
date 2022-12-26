@@ -13,7 +13,7 @@ public class StringEx03 {
 		}
 		else {
 			System.out.println("주민등록번호 자릿수가 틀립니다.");
-		}
+		} 
 	}
 
 }
