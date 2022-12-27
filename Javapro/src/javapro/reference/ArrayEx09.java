@@ -12,9 +12,9 @@ public class ArrayEx09 {
 				{70,86,66,82,75} //2반
 		};
 		double avg;
-		for(int i=0; i<scores.length; i++) {
+		for(int i=0; i<scores.length; i++) { // 행을 담당
 		int	sum=0; //j for문이 끝나면 다시 sum = 0
-			for(int j=0; j<scores[i].length; j++) {
+			for(int j=0; j<scores[i].length; j++) { // 열을 담당
 				sum += scores[i][j];
 			}
 			avg =(double) sum / scores[i].length;
