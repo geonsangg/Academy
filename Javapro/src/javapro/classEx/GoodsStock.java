@@ -14,5 +14,5 @@ public class GoodsStock {
 		}
 		stockNum -= amount;
 		return amount;
-	}
+	} 
 }
