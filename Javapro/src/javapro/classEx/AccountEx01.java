@@ -14,7 +14,7 @@ public class AccountEx01 {
 		leegeon.balance = 0;
 		geonsang.deposit(3000);
 		geonsang.deposit(5000);
-		leegeon.deposit(10000);
+		leegeon.deposit(10000);  
 		leegeon.withdraw(2000);
 		System.out.println(geonsang.ownerName +"의 잔액 = " + geonsang.balance);
 		System.out.println(leegeon.ownerName + "의 잔액 = " + leegeon.balance);
