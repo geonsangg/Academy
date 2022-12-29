@@ -1,4 +1,4 @@
-package javapro;
+package javapro.classEx;
 
 public class GoodsStock {
 	String goodsCode;
