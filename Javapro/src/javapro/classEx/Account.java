@@ -6,6 +6,14 @@ public class Account {
 	String accountNo; // 계좌번호
 	String ownerName; // 예금주
 	int balance; // 잔액
+	
+	//생성자
+	public Account(String accNo, String oName, int bal) {
+		accountNo = accNo;
+		ownerName = oName;
+		balance = bal;
+	}
+	
 
 	// 예금한다 메서드
 	void deposit(int amount) {
