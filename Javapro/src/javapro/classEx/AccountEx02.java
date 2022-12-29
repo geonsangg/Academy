@@ -9,9 +9,10 @@ public class AccountEx02 {
 		geonsang.deposit(6000);
 		leegeon.deposit(10000);
 		try {
-		geonsang.withdraw(20000);
+		geonsang.withdraw(2000);
 		printAccount(geonsang);
 		printAccount(leegeon);
+		printAccount(new Account("123-456-789012", "손흥민", 30000)); //익명 객체 생성
 		}
 		catch (Exception e) {
 			System.out.println(e.getMessage());
