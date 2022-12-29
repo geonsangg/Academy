@@ -23,6 +23,7 @@ public class AccountEx02 {
 
 	//예금정보 출력 메서드
 	public static void printAccount(Account obj) {
+		System.out.println("거래은행 : " + Account.BANKNAME); // BANKNAME = 정적필드이기때문에 통상 클래스.정적필드 로 사용한다.
 		System.out.println("계좌번호 : " + obj.accountNo);
 		System.out.println("예금주 : " + obj.ownerName);
 		System.out.println("잔액 : " + obj.balance);
