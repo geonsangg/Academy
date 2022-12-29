@@ -22,12 +22,12 @@ public class Account {
 	}
 
 	// 예금한다 메서드
-	void deposit(int amount) {
+	void deposit(int amount) { //return 값이 없으면 void
 		balance += amount;
 	}
 
 	// 인출한다 메서드
-	int withdraw(int amount) throws Exception {
+	int withdraw(int amount) throws Exception { //return 값이 있으면 타입
 		if (balance < amount) {
 			throw new Exception("잔액이 부족합니다.");
 		}
