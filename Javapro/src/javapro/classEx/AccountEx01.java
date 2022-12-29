@@ -15,10 +15,16 @@ public class AccountEx01 {
 		geonsang.deposit(3000);
 		geonsang.deposit(5000);
 		leegeon.deposit(10000);  
-		leegeon.withdraw(2000);
+		try {
+		int amount = leegeon.withdraw(2000);
 		System.out.println(geonsang.ownerName +"의 잔액 = " + geonsang.balance);
+		System.out.println("==============================================");
+		System.out.println("인출한 금액 =" + amount);
 		System.out.println(leegeon.ownerName + "의 잔액 = " + leegeon.balance);
-
+		}
+		catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 	}
 
 }
