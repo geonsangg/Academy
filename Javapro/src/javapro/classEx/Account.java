@@ -9,9 +9,13 @@ public class Account {
 
 	// 생성자
 	public Account(String accountNo, String ownerName, int balance) {
+		this(accountNo, ownerName); //this( ) = 생성자에서 다른 생성자호출 (괄호 안에 매개변수를 다른 생성자로 보낸다.)
+		this.balance = balance;
+	}
+	
+	public Account(String accountNo, String ownerName) {
 		this.accountNo = accountNo;
 		this.ownerName = ownerName;
-		this.balance = balance;
 	}
 
 	// 매개변수가 없는 생성자를 default 생성자라고한다.
