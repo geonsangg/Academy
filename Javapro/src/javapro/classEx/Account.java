@@ -1,11 +1,15 @@
 package javapro.classEx;
 
-//은행계좌 클래스
+//신한은행계좌 클래스
 public class Account {
 	// 필드
-	String accountNo; // 계좌번호
-	String ownerName; // 예금주
-	int balance; // 잔액
+	//final = 값을 한번만 넣고 고정. 바꿀 수 없음.  ex) final String BANKNAME = "신한은행" /신한은행 값을 넣었으니 이제 바꿀 수 없음.
+	//static(정적)필드 : 객체가 없어도 사용가능
+	//static final 이 붙으면 '상수'라고함. (상수는 다 대문자로 쓰는게 관례임)
+	static final String BANKNAME = "신한은행"; 
+	String accountNo; // 계좌번호 (인스턴스 필드 = 클래스의 객체를 생성 후 .을 통해서 접근하는 필드)
+	String ownerName; // 예금주 (인스턴스 필드)
+	int balance; // 잔액 (인스턴스 필드)
 
 	// 생성자
 	public Account(String accountNo, String ownerName, int balance) {
