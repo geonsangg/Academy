@@ -8,10 +8,17 @@ public class AccountEx02 {
 		Account leegeon = new Account("111-333-444444", "리건", 0);
 		geonsang.deposit(6000);
 		leegeon.deposit(10000);
-		geonsang.withdraw(2000);
+		try {
+		geonsang.withdraw(20000);
 		printAccount(geonsang);
 		printAccount(leegeon);
+		}
+		catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 	}
+		
+		
 
 	//예금정보 출력 메서드
 	public static void printAccount(Account obj) {
