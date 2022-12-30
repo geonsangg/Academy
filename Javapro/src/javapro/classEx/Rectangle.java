@@ -22,5 +22,16 @@ public class Rectangle {
 	int getHeight() {
 		return height;
 	}
-
+	//setter를 사용하는 이유는 필드에는 대입문으로 바로 들어가서 잘못 된 값을 막을 수 없지만 메서드는 if문 등으로 막을 수 있기때문.
+	public void setWidth(int width) {
+		if(width > 0) {
+		this.width = width;
+		 }
+	}
+	public void setHeight(int height) {
+		if(height > 0) {
+		this.height = height;
+		}
+	}
+	
 }
