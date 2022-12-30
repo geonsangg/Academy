@@ -5,6 +5,7 @@ public class RectangleEx01 {
 	public static void main(String[] args) {
 		try {
 			Rectangle rect1 = new Rectangle(20, 30);
+			rect1.setWidth(15);
 			int area = rect1.getArea(); // 메서드 호출
 			/* width,height가 캡슐화로 인해 접근이 안돼서 오류가뜸.
 			 * System.out.println("사각형의 넓이 = " + rect1.width); //필드 호출
