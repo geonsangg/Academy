@@ -8,6 +8,9 @@ public class CreditLineAccount extends Account{
 		super(accountNo, onwerName, balance);
 		this.creditLine = creditLine;
 	}
+	public CreditLineAccount() {
+		
+	}
 	//메서드 오버라이딩 = 부모가 갖고 있는 메서드를 일부 수정해서 사용.
 	//인출한다. 메서드 (Account클래스가 가지고 있는 인출한다. 메서드를 수정해서 사용)
 	@Override //어노테이션 @Override = 밑에 메서드를 오버라이드 할거라고 알림. 오타방지
