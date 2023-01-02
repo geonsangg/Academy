@@ -11,6 +11,9 @@ public class CheckingAccount extends Account{ //extends = 상속  CheckingAccoun
 		super(accountNo, ownerName, balance); //super = 부모 생성자를 호출하는것.
 		this.cardNo = cardNo;
 	}
+	public CheckingAccount() {
+		
+	}
 	//카드로 지불한다.메서드
 	int pay(String cardNo, int amount) throws Exception {
 		if(!this.cardNo.equals(cardNo) || balance < amount) {
