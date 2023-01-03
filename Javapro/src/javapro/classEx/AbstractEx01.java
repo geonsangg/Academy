@@ -12,7 +12,7 @@ public class AbstractEx01 {
 		eagle1.home = "소나무둥지";
 		eagle1.name = "독수리";
 		System.out.println(eagle1.name + "는 " + eagle1.home + "에서 삽니다.");
-		eagle1.move();
+		eagle1.move(); 
 	}
 
 }
