@@ -11,7 +11,7 @@ public class StackEx01 {
 		coinBox.push(new Coin(500));
 		coinBox.push(new Coin(10));
 		
-		while(!coinBox.isEmpty()) {
+		while(!coinBox.isEmpty()) { //isEmpty = 비어있느냐
 			Coin coin = coinBox.pop(); //스텍에 넣은 걸 꺼내는 메서드 pop
 			System.out.println("꺼내온 동전 :" + coin.getValue() + "원");
 		}
